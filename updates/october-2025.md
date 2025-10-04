@@ -17,6 +17,7 @@ The key, is: where are there keyboards?
 ## What happened
 
 * Built a skunkworks author platform and [author pages][deloressullivan]. 
+* New blog post [No one ever wanted a three-headed hammer][hammer].
 * Products in ninefy now all have emojicodes for purchasing via the AdvanceKey keyboard
 * Got purchases working end to end ninefy -> magistack -> bdoPubKey -> addie
 * The Advancement app now has a carrier bag for things it collects such as a cookbook for recipes
@@ -69,6 +70,7 @@ But once those come, we're gonna make it so that waving a wand sends ethereal em
 [planet nine]: https://wiki.planetnineisaspaceship.com 
 [peaceloveandredistribution]: https://peaceloveandredistribution.com
 [teleportation]: https://github.com/planet-nine-app/teleportation
+[hammer]: https://opensource-force.github.io/osf-blog/posts/no-one-ever-wanted-a-three-headed-hammer/
 [allyabase]: https://github.com/planet-nine-app/allyabase
 [fedwiki]: https://github.com/fedwiki
 [sodoto]: https://relocalizecreativity.net/view/welcome-visitors/view/relocalize-creativity-explained/view/sodoto
