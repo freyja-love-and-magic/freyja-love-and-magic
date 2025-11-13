@@ -6,7 +6,8 @@
 
 Modern software development is largely this:
 
-<draw the rest of the owl image>
+![draw the rest of the owl image](./owl.webp)
+this is supposed to be the "draw the rest of the owl meme" if it's not something's broken.
 
 Unfortunately, this has made programming a ridiculous discipline that requires a four year degree or some nonsense to shit out a website.
 
