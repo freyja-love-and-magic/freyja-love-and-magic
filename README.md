@@ -1,4 +1,32 @@
-# Planet Nine
+# Freyja (Love and Magic) formerly known as Planet Nine
+
+I've renamed my work, and thus this project, and thus this repo. 
+This README is still very much applicable so I'm keeping it as is, but with this addendum at the top.
+
+First the name change. 
+Planet Nine is a thing, and whatever that thing is asked me not to domain squat on its potential stuff here so I'm rebranding my work to Freyja (Love and Magic). 
+
+I wanted a name that was planetary like Planet Nine given the global goals, and since Freyja's my favorite deity, and there's nothing in the Solar System named for her yet, here we are.
+
+The rebrand also comes with a reframing and expansion of the goal of this project. 
+When I started Planet Nine about a decade ago, I started with the premise that the user is everyone, and that I should build things that everyone needs. 
+This led me to focus on money, which in turn led me to focus on trying to re-incentivize the internet by redirecting advertising dollars to people. 
+
+As I'm writing this line, not much is happening in the _end result_ of this goal, and so to some it might seem both odd, and counter-productive to add goals, but when you work on planetary scoped things you start thinking about things in timescales where a few years isn't really a long time. 
+
+The whole people can use more money still holds, but it's also a consequence of this particular moment in human social development.
+Will we have money in a hundred years? 
+What about a thousand, a hundred thousand, a million?
+
+There are two things everyone needs more than money that are historically, and currently criminally undervalued and overlooked, and I'll be the first to say mea culpa in not recognizing that before in this work.
+Everyone needs a planet to live on, and everyone needs a mom. 
+
+I'm still formulating how all these new goals are going to fit into Freyja, but the immediate change as of this writing is that I will be working, so much as I can while sustaining my family, exclusively with women entrepreneurs. 
+The only job more gender imbalanced that startup founder is heavy machine operator, and the only way to fight that is to specifically ignore the super imbalanced side of things. 
+
+So if you're a woman who wants to build some software, hmu. 
+
+Now, back to what got me building in the first place.
 
 _the following is part fact, part hypothetical fiction, it should be pretty obvious when it changes..._
 
