@@ -1,7 +1,7 @@
 # FOSSialism - 2026
 -------------------
 
-this is mismed, too long. 
+this is misnamed, too long. 
 
 the standard inputs of production, land, labor, and capital, form a triangle that 
 is supposed to move value around. 
