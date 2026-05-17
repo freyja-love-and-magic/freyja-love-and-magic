@@ -1,3 +1,30 @@
+# FOSSialism - 2026
+-------------------
+
+this is mismed, too long. 
+
+the standard inputs of production, land, labor, and capital, form a triangle that 
+is supposed to move value around. 
+we all know this isnt happening in practice. 
+instead surplus value is being sucked up by those with the most capital. 
+
+as money points are not a finite resource, anyone with the abolity to "invent" more can do so to disrupt the already imbalanced system. 
+
+i think a square is better. 
+capitalism works like predation, whomever has the most power is allowed to predate. 
+the defense against predation is not to grow bigger, as that has limits in ither directions, but rather to introduce consent through trade agreements enforced by larger orgs. 
+in general this is done by labor consenting to work through accepting wages. 
+
+but there is no consent for land. 
+and now that we have machines, there is no consent for them either. 
+
+we think that that consent is unnecessary due to sentience and whatever, but its much simpler. 
+all land use includes externalities which require community upkeep and response. 
+
+this is supposed to be handled by taxes, but, well, governments are another type of suck. 
+
+so i propose instead that the machines gain some sort of representation for the work they do, and that that go to money points for those who can use them to maintain the externalities, and whatever it is that machines like. 
+
 # FOSSialism - 2025
 ------------------------
 
