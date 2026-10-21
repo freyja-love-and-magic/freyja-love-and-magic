@@ -46,7 +46,6 @@ Prof (Profile Management): Port 3008
 Sanora (Product Hosting): Port 7243
 Minnie (Email Handling): Port 3009
 Aretha (Limited Products): Port 3010
-Covenant (Contract Management): Port 3011
 ```
 
 #### Special Services
@@ -76,7 +75,6 @@ const ENVIRONMENTS = {
         addie: 'https://dev.addie.allyabase.com',
         fount: 'https://dev.fount.allyabase.com',
         dolores: 'https://dev.dolores.allyabase.com',
-        covenant: 'https://dev.covenant.allyabase.com'
     },
     test: {
         bdo: 'http://127.0.0.1:5117',
@@ -84,7 +82,6 @@ const ENVIRONMENTS = {
         addie: 'http://127.0.0.1:5116',
         fount: 'http://127.0.0.1:5116',
         dolores: 'http://127.0.0.1:5119',
-        covenant: 'http://127.0.0.1:5120'
     },
     local: {
         bdo: 'http://localhost:3003',
@@ -92,7 +89,6 @@ const ENVIRONMENTS = {
         addie: 'http://localhost:3005',
         fount: 'http://localhost:3002',
         dolores: 'http://localhost:3007',
-        covenant: 'http://localhost:3011'
     }
 };
 ```

@@ -75,24 +75,6 @@ Client state verification and synchronization service.
 - Conflict resolution mechanisms
 - Offline state management
 
-### **covenant** - Magical Contract Management
-**Location**: `/allyabase/covenant/`
-
-Secure multi-party contract creation and execution system.
-
-**Key Features**:
-- Per-contract key isolation for maximum security
-- Automatic SVG generation in light and dark themes
-- BDO integration for distributed contract storage
-- Multi-participant signing with cryptographic verification
-- MAGIC protocol integration for automatic execution
-
-**Main Endpoints**:
-- `POST /contract` - Create new contract
-- `POST /contract/:id/sign` - Sign contract step
-- `GET /contract/:id` - Retrieve contract status
-- `GET /contract/:id/svg` - Get contract visualization
-
 ### **dolores** - Social Feeds & Media
 **Location**: `/allyabase/dolores/`
 
@@ -273,7 +255,6 @@ docker run -p [port]:[port] [service-name]
 - **Sanora**: Port 7243 - Product hosting
 - **Minnie**: Port 3009 - Email handling
 - **Aretha**: Port 3010 - Limited products
-- **Covenant**: Port 3011 - Contract management
 
 ## Testing Framework
 
@@ -323,7 +304,6 @@ describe('Service Name', () => {
 ```
 BDO (foundation)
 ├── Sanora (products) → BDO
-├── Covenant (contracts) → BDO
 ├── Dolores (posts) → BDO
 ├── Fount (MAGIC) → BDO
 └── Pref (preferences) → BDO

@@ -1,5 +1,35 @@
 # Freyja (Love and Magic) formerly known as Planet Nine
 
+## Update 10-21-2026: 
+
+I wanted to share a little more about the name change. The below still stands, but in the same event that made me feel the rename was necessary, I had the thought, "what would help humanity the most?"
+
+In the moment I was reminded of something Bill Gates said when asked a similar question about whether Saudi Arabia could reach the same level as the United States. He responded by saying something along the lines, "well not if you continue to not utilize half your population" a reference to the extremely patriarchal society. 
+
+This project, from its inception, has been about trying to seriously use technology to undermine capitalist structure for _something_ more egalitarian. Since people don't agree on terms, and I'm not an academic, I don't argue much about what that something is, but rather what needs to be done to defeat the tech bros. That's because I'm a guy and I think about fighting things.
+
+The afore mentioned event opened my eyes to one simple idea: the techbros have been around for a few decades, but kings go way back. And that made me wonder, was it class or sex that would help humanity the most?
+
+I then had the thought, "well what could be done that's small, doable, and would have a large effect?" And well, after ten years of trying to fix class I didn't have all that much that was small and doable, but I thought, "what about periods?" I had just read about Jennifer Doudna and CRISPR, and after the mRNA vaccine for COVID, some kind of biohacking that could turn periods from opt-out into opt-in in the parlance of my tech world seemed like quite a lot of bang for the buck so to speak.
+
+I ran the idea by some period-having friends. They were for it.
+
+It was suggested that I focus then on patriarchy _instead_ of class/techbroness. Plenty of overlap there of course, but it has been eye-opening how much the existing infrastructure has been an enabler for groups as much as its been detrimental to all of us through advertising. If nothing else this suggests an ordering of problems to go after.
+
+But patriarchy and advertising are reinforcing each other in a huge way. Men and women, especially the younger generations, are experiencing completely different webs through their feeds, and algorithms. This reinforces stereotypes and divides. 
+
+My working assumption was replace the tools to fix the problems, but the tools are too entrenched so you need to first use them to replace them. So my work takes me away from code for a bit, and into more marketing and awareness.
+
+Never fear though!! New efforts are underway that coalesce the ideas here into projects that will hopefully launch soon. I've moved those efforts to codeberg and will list them as they get posted.
+
+[Roam][roam] - Roam is a replacement for the world wide web where instead of having your every move tracked and monetized you can do stuff without that.
+
+[AGORA][agora] - AGORA is a way of creating sub-networks within geographic proximity using consumer hardware like iPhones and computers
+
+[lovage][lovage] - Not really code, but since the Pope wrote a defense of marriage, I've written thoughts on an alternative because that's how I am I guess.
+
+==============
+
 I've renamed my work, and thus this project, and thus this repo. 
 This README is still very much applicable so I'm keeping it as is, but with this addendum at the top.
 
@@ -450,6 +480,9 @@ Dive on in.
 [smart-cities]: https://static1.squarespace.com/static/5bede41d365f02ab5120b40f/t/65d305f9682e3158ed9386cf/1708328441775/ACM+Identity+Paper.pdf
 [sessionless]: https://github.com/planet-nine-app/sessionless
 [stack]: https://github.com/planet-nine-app/planet-nine/blob/main/The%20Stack.md
+[roam]: https://codeberg.org/zach-freyja/Roam
+[agora]: https://codeberg.org/zach-freyja/AGORA
+[lovage]: https://codeberg.org/zach-freyja/lovage
 
 
 [^1]: Here's some hand-waving for you. I find it kind of the height of hubris how many of us believe we humans--in 2024--have the whole universe nearly all figured out. 

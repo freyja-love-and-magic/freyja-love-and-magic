@@ -15,7 +15,7 @@ This divvying up happens automagically at the time of purchase, and then left ov
 
 * Started hanging out with this cool indie music platform called mirlo
 * Built a music-player for feeds in like twenty mins: https://dev.dolores.allyabase.com/audio-player.html
-* Got a full SoDoTo contract flow working with BDO and covenant
+* Got a full SoDoTo contract flow working with BDO
 * I wrote a blog post, but it needs a video and I didn't get that done so it'll be posting soon
 * Made an allyabase plugin for fed wiki that turns the fed wiki into a base, and federates it
 * Hitchhiker's continues

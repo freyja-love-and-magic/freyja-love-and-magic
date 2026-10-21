@@ -4,11 +4,10 @@ The Stack provides foundational protocols that enable the Planet Nine ecosystem'
 
 ## Protocol Overview
 
-The Stack consists of four core protocols:
+The Stack consists of three core protocols:
 1. **sessionless** - Authentication without passwords
 2. **MAGIC** - Multi-device consensus and transactions
 3. **teleportation** - Content discovery and verification
-4. **covenant** - Multi-party contract management
 
 ## sessionless Protocol
 
@@ -245,13 +244,6 @@ function loadSpellSystems() {
             script.onerror = () => console.warn('⚠️ Spell system unavailable');
             document.head.appendChild(script);
 
-            // Load signCovenant.js from covenant service
-            const covenantUrl = getServiceUrl('covenant');
-            const covenantScript = document.createElement('script');
-            covenantScript.src = `${covenantUrl}/public/signCovenant.js`;
-            covenantScript.onload = () => console.log('✅ Covenant system loaded');
-            covenantScript.onerror = () => console.warn('⚠️ Covenant system unavailable');
-            document.head.appendChild(covenantScript);
         }
     }, 100);
 }
@@ -419,102 +411,6 @@ const allProducts = await Promise.all(
 );
 ```
 
-## Covenant Protocol
-
-**Location**: `/covenant/`
-
-Multi-party contract management with cryptographic security and automatic visualization.
-
-### Architecture
-
-#### Per-Contract Key Isolation
-Each contract uses unique cryptographic keys:
-
-```javascript
-// Generate unique keys for each contract
-const contractKeys = sessionless.generateKeys();
-const contract = {
-    id: generateContractId(),
-    pubKey: contractKeys.publicKey,
-    participants: [],
-    steps: [],
-    status: 'draft'
-};
-```
-
-#### Automatic SVG Generation
-Beautiful visual representations in light and dark themes:
-
-```javascript
-// Generate contract visualization
-const svg = await generateContractSVG(contract, {
-    theme: 'dark',
-    showProgress: true,
-    includeSignatures: true
-});
-```
-
-### BDO Integration
-
-Contracts stored in distributed storage:
-
-```javascript
-// Store contract in BDO
-const bdoResponse = await bdo.put(contractData, contractPubKey, signature);
-
-// Return references for other services
-return {
-    success: true,
-    contractId: contract.id,
-    bdoUuid: bdoResponse.uuid,
-    pubKey: contractPubKey
-};
-```
-
-### Multi-Participant Signing
-
-Secure step-by-step contract completion:
-
-```javascript
-// Sign contract step
-app.post('/contract/:id/sign', async (req, res) => {
-    const { stepIndex, signature, pubKey } = req.body;
-    const contract = await getContract(req.params.id);
-
-    // Verify participant authorization
-    if (!contract.participants.includes(pubKey)) {
-        return res.status(403).json({ error: 'Unauthorized participant' });
-    }
-
-    // Verify signature for specific step
-    const step = contract.steps[stepIndex];
-    const isValid = sessionless.verifySignature(step.content, signature, pubKey);
-
-    if (isValid) {
-        step.signatures[pubKey] = signature;
-        await updateContract(contract);
-
-        res.json({ success: true, contract });
-    } else {
-        res.status(400).json({ error: 'Invalid signature' });
-    }
-});
-```
-
-### Web Integration
-
-Enable contract signing on any web page:
-
-```html
-<!-- Include covenant signing script -->
-<script src="https://covenant.example.com/public/signCovenant.js"></script>
-
-<!-- Contract signing button -->
-<button onclick="signCovenantStep('contract_123', 2)">
-    Sign Step 2
-</button>
-```
-
 ## Protocol Integration Patterns
 
 ### Cross-Protocol Communication
@@ -530,15 +426,6 @@ const spellPayload = {
 
 const signature = sessionless.sign(JSON.stringify(spellPayload), privateKey);
 const magicRequest = { payload: spellPayload, signature };
-```
-
-#### Teleportation + Covenant
-```javascript
-// Teleport contract templates
-const contractTemplate = await getTeleportedContent(
-    'allyabase://covenant/contract-templates/service-agreement',
-    covenantPubKey
-);
 ```
 
 #### MAGIC + BDO
@@ -557,20 +444,17 @@ const protocolConfig = {
     DEV: {
         sessionless: 'https://dev.sessionless.allyabase.com',
         magic: 'https://dev.fount.allyabase.com',
-        teleportation: 'https://dev.bdo.allyabase.com',
-        covenant: 'https://dev.covenant.allyabase.com'
+        teleportation: 'https://dev.bdo.allyabase.com'
     },
     TEST: {
         sessionless: 'http://127.0.0.1:5115',
         magic: 'http://127.0.0.1:5116',
-        teleportation: 'http://127.0.0.1:5117',
-        covenant: 'http://127.0.0.1:5119'
+        teleportation: 'http://127.0.0.1:5117'
     },
     LOCAL: {
         sessionless: 'http://localhost:3001',
         magic: 'http://localhost:3002',
-        teleportation: 'http://localhost:3003',
-        covenant: 'http://localhost:3011'
+        teleportation: 'http://localhost:3003'
     }
 };
 ```

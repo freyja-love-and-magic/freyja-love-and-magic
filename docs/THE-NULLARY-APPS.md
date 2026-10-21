@@ -101,17 +101,6 @@ Central web portal demonstrating the complete Planet Nine ecosystem.
 - **Responsive Design**: Works on desktop and mobile
 - **Express.js Backend**: Simple Node.js server with API proxy functionality
 
-### **covenant** - Contract Management ✅
-**Location**: `/the-nullary/covenant/`
-
-Magical contract management with beautiful SVG visualizations.
-
-**Features**:
-- **Contract Creation**: Multi-step contract creation wizard
-- **SVG Visualizations**: Beautiful contract representations in light/dark themes
-- **Multi-Party Signing**: Secure participant management and signing
-- **BDO Integration**: Distributed contract storage and retrieval
-
 ### Additional Applications
 
 #### **idothis** - Task Management
@@ -425,9 +414,6 @@ function loadSpellSystems() {
             const fountUrl = getServiceUrl('fount');
             loadScript(`${fountUrl}/public/castSpell.js`, 'Spell system');
 
-            // Load signCovenant.js from covenant service
-            const covenantUrl = getServiceUrl('covenant');
-            loadScript(`${covenantUrl}/public/signCovenant.js`, 'Covenant system');
         }
     }, 100);
 }
@@ -435,7 +421,7 @@ function loadSpellSystems() {
 
 **Apps with Spell Integration**:
 - rhapsold, ninefy, screenary, mybase, stackchat, nexus
-- idothis, covenant, grocary, viewary, lexary, photary
+- idothis, grocary, viewary, lexary, photary
 - blogary, viewaris, eventary, magicard
 
 ## Production Readiness Patterns

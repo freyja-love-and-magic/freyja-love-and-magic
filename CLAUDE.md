@@ -23,7 +23,7 @@ The Planet Nine ecosystem is a comprehensive collection of open-source software 
 This main document provides an overview. For detailed information, see our modular documentation:
 
 - **[Allyabase Services](docs/ALLYABASE-SERVICES.md)** - Complete backend service documentation (12+ microservices)
-- **[The Stack Protocols](docs/THE-STACK-PROTOCOLS.md)** - sessionless, MAGIC, teleportation, covenant protocols
+- **[The Stack Protocols](docs/THE-STACK-PROTOCOLS.md)** - sessionless, MAGIC, teleportation protocols
 - **[The Nullary Apps](docs/THE-NULLARY-APPS.md)** - All client applications and SVG component system
 - **[Development Environment](docs/DEVELOPMENT-ENVIRONMENT.md)** - Setup, testing, and deployment
 - **[Testing Ecosystem](docs/TESTING-ECOSYSTEM.md)** - Complete 6-phase testing system
@@ -38,7 +38,6 @@ This main document provides an overview. For detailed information, see our modul
 - **Sanora**: Product hosting with marketplace and teleportation endpoints
 - **Addie**: Payment processing with multi-party transaction splitting
 - **Fount**: MAGIC protocol integration and nineum currency management
-- **Covenant**: Multi-party contract management with automatic SVG generation
 - **Dolores**: Social feeds and PostWidget component system
 - **Plus**: Joan (recovery), Julia (P2P messaging), Minnie (email), Pref (preferences), Aretha (limited products), Continuebee (state verification)
 
@@ -48,7 +47,6 @@ Foundational protocols enabling interoperability:
 #### **sessionless** - Passwordless authentication using secp256k1 keys
 #### **MAGIC** - Multi-device consensus protocol for secure transactions
 #### **teleportation** - Content discovery and verification across bases
-#### **covenant** - Multi-party contract management with cryptographic security
 
 ### 3. **the-nullary** (Client Applications)
 **Location**: `/the-nullary/`
@@ -59,7 +57,7 @@ Foundational protocols enabling interoperability:
 - **StackChat**: P2P messaging with cross-base communication
 - **MyBase**: Personal base management and content aggregation
 - **Nexus**: Web-based ecosystem portal showcasing all Planet Nine services
-- **Plus**: Covenant, Screenary, IDO This, Grocary, Viewary, Lexary, Photary, Blogary, Viewaris, Eventary, MagiCard
+- **Plus**: Screenary, IDO This, Grocary, Viewary, Lexary, Photary, Blogary, Viewaris, Eventary, MagiCard
 
 ### 4. **the-advancement** (Browser Extensions)
 **Location**: `/the-advancement/`
